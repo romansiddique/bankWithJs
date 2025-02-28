@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Interface</title>
+  <link rel="shortcut icon" href="payoo.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/cffc2fbc9a.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/cffc2fbc9a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<style>
+  .outfit{
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+</style>
+<body class="outfit mx-5">
+  <nav class="flex justify-between mt-5">
+    <div class="flex items-center gap-7">
+      <img class="w-16" src="assets/Group.png" alt="">
+      <div>
+        <h1 class="text-4xl font-bold">$4500</h1>
+        <p class="font-semibold">Available Balance</p>
+      </div>
+    </div>
+    <div class="flex gap-1 items-center p-4 bg-slate-100 rounded-lg hover:bg-white cursor-pointer">
+      <img class="w-4" src="assets/logout.png" alt="">
+      <p class="font-bold">Log Out</p>
+    </div>
+  </nav>
+  <main class="mt-8">
+    <div class="max-w-[900px] mx-auto">
+      <div class="flex items-center mb-2">
+        <img class="w-6" src="assets/fire.png" alt="">
+        <h1 class="text-4xl">Welcome to Payooo!</h1>
+      </div>
+      <p class="text-gray-500">Enjoy easy and convenient financial services with us. Cash out charge is low.</p>
+    </div>
+
+    <!-- cards -->
+    <section class="max-w-[900px] mx-auto mt-7">
+      <!-- cards1 -->
+    <div class="card1 grid grid-cols-3">
+      <div class="card1 max-w-52 flex flex-col items-center border-1 border-gray-300 bg-slate-100 p-4 rounded-lg cursor-pointer hover:bg-white">
+        <img class="w-9" src="assets/add-money.png" alt="">
+        <h1 class="text-xl">Add Money</h1>
+      </div>
+
+      <div class="card2 max-w-52 flex flex-col items-center border-1 border-gray-300 bg-slate-100 p-4 rounded-lg cursor-pointer hover:bg-white">
+        <img class="w-9" src="assets/cash-out.png" alt="">
+        <h1 class="text-xl">Cash Out</h1>
+      </div>
+
+      <div class="card3 max-w-52 flex flex-col items-center border-1 border-gray-300 bg-slate-100 p-4 rounded-lg cursor-pointer hover:bg-white">
+        <img class="w-9" src="assets/transfer-money.png" alt="">
+        <h1 class="text-xl">Transfer Money</h1>
+      </div>
+    </div>
+
+
+    <!-- cards2 -->
+    <div class="cards grid grid-cols-3 mt-5">
+      <div class="card4 max-w-52 flex flex-col items-center border-1 border-gray-300 bg-slate-100 p-4 rounded-lg cursor-pointer hover:bg-white">
+        <img class="w-9" src="assets/transaction1.png" alt="">
+        <h1 class="text-xl">Transaction</h1>
+      </div>
+
+      <div class="card5 max-w-52 flex flex-col items-center border-1 border-gray-300 bg-slate-100 p-4 rounded-lg cursor-pointer hover:bg-white">
+        <img class="w-9" src="assets/pay-bill.png" alt="">
+        <h1 class="text-xl">Pay Bill</h1>
+      </div>
+
+      <div class="card6 max-w-52 flex flex-col items-center border-1 border-gray-300 bg-slate-100 p-4 rounded-lg cursor-pointer hover:bg-white">
+        <img class="w-9" src="assets/bonus1.png" alt="">
+        <h1 class="text-xl">Bonus</h1>
+      </div>
+    </div>
+    </section>
+
+    <!-- latest payment -->
+    <section class="latest-payment mt-7 p-5 bg-gray-100">
+      <div class="latest-payment-container">
+        <div class="payment-title flex items-center justify-between">
+          <h1 class="text-2xl">Latest Payment</h1>
+          <h3 class="text-gray-600 hover:underline cursor-pointer">view all</h3>
+        </div>
+        <!-- first -->
+        <div class="payment-history1 my-4 bg-white flex justify-between items-center p-5 cursor-pointer">
+          <div class="flex justify-between items-center gap-5 rounded-lg ">
+            <img src="assets/add-money.png" alt="">
+          <div>
+            <h1 class="text-base">Electricity Bill</h1>
+            <p class="text-sm">Today 01:44 AM</p>
+          </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical text-xl cursor-pointer"></i>
+        </div>
+        <!-- second -->
+        <div class="payment-history1 my-4 bg-white flex justify-between items-center p-5 cursor-pointer">
+          <div class="flex justify-between items-center gap-5 rounded-lg">
+            <img src="assets/add-money.png" alt="">
+          <div>
+            <h1 class="text-base">Add Money</h1>
+            <p class="text-sm">Today 01:44 AM</p>
+          </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical text-xl cursor-pointer"></i>
+        </div>
+        <!-- third -->
+        <div class="payment-history1 my-4 bg-white flex justify-between items-center p-5 cursor-pointer">
+          <div class="flex justify-between items-center gap-5 rounded-lg">
+            <img src="assets/add-money.png" alt="">
+          <div>
+            <h1 class="text-base">Mobile Recharge</h1>
+            <p class="text-sm">Today 01:44 AM</p>
+          </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical text-xl cursor-pointer"></i>
+        </div>
+        <!-- fourth -->
+        <div class="payment-history1 my-4 bg-white flex justify-between items-center p-5 cursor-pointer">
+          <div class="flex justify-between items-center gap-5 rounded-lg">
+            <img src="assets/add-money.png" alt="">
+          <div>
+            <h1 class="text-base">Gas Bill</h1>
+            <p class="text-sm">Today 01:44 AM</p>
+          </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical text-xl cursor-pointer"></i>
+        </div>
+        <!-- fifth -->
+        <div class="payment-history1 my-4 bg-white flex justify-between items-center p-5 cursor-pointer">
+          <div class="flex justify-between items-center gap-5 rounded-lg">
+            <img src="assets/add-money.png" alt="">
+          <div>
+            <h1 class="text-base">Bank Deposit</h1>
+            <p class="text-sm">Today 01:44 AM</p>
+          </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical text-xl cursor-pointer"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
