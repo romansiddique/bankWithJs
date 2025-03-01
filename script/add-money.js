@@ -25,3 +25,6 @@ document.getElementById('add-money').addEventListener('click', function(){
     alert("Write Valid Account Number")
   }
 })
+document.getElementById('btn-logout').addEventListener('click', function(){
+  window.location.href = "index.html"
+})
